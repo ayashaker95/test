@@ -1,0 +1,19 @@
+.Board{
+  margin-left: 100px;
+
+  .Columns{
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: sans-serif;
+  }
+}
+.zones{
+  display: flex;
+  flex-direction: column;
+}

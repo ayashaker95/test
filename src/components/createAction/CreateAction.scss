@@ -1,0 +1,17 @@
+.CreateButton{
+  background-color: #62bdb4;
+  border-radius: 20px;
+  width: 120px;
+  height: 30px;
+  color:#f1f1f1;
+}
+.Card {
+  overflow: visible;
+
+  .Form {
+    resize: none;
+    width: 100%;
+    outline: none;
+    border: none;
+  }
+}

@@ -1,0 +1,39 @@
+html {
+  font-family: "Calibri Light";
+}
+
+.SideBar {
+  font-size: 12px;
+  height: calc(100% - 86px);
+  width: 200px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #f1f1f1;
+  padding-left: 10px;
+  border-right: black;
+  box-shadow: 3px 2px 2px -2px #cccccc;;
+
+  .SideBar__Header {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .SideBar__SubTitle {
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .MotherPlants__Title {
+    font-weight: bold;
+    padding-top: 50px;
+  }
+
+  .Children {
+    list-style-type: none;
+  }
+}

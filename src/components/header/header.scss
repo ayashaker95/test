@@ -1,0 +1,76 @@
+html {
+  font-family: "Calibri Light";
+}
+
+.navBar {
+  height: 40px;
+
+  .navbar.bg-light {
+    height: 60px;
+    background-color: #62bdb4 !important;
+    font-weight: bold;
+    color: #f1f1f1 !important;
+  }
+
+  Navbar.Brand {
+    padding-right: 25px;
+  }
+
+  .mr-auto {
+    width: 50px;
+    font-size: 14px;
+    margin-left: 50px;
+    color: #ffffff;
+
+    .navBar__Element {
+      color: #f1f1f1 !important;
+      margin-right: 50px;
+      font-weight: lighter;
+    }
+  }
+}
+
+.navBar__SubNav {
+  width: 100%;
+  margin-top: 56px;
+  height: 30px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 2px 2px 1px #cccccc;
+
+  .subNav__createNew {
+    width: 200px;
+    margin-top: 7px;
+    font-size: 12px;
+    padding-left: 50px;
+    box-shadow: 0 2px 2px 1px #cccccc;
+
+    i {
+      color: #62bdb4;
+      padding-right: 5px;
+    }
+  }
+
+  .subNav__Tabs {
+    width: 100px;
+    text-align: center;
+    color: #111111;
+    font-size: 12px;
+    margin-top: 7px;
+  }
+}
+
+.navBar__Logo {
+  color: #f1f1f1 !important;
+  font-size: 56px;
+  font-weight: bold;
+
+  .logo {
+    width: 130px;
+    height: 40px;
+  }
+}
+
+
+

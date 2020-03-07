@@ -1,0 +1,33 @@
+.Card{
+  margin: 10px;
+  width: 180px;
+  height: 30px;
+  overflow: auto;
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+.CardTitle{
+  display: flex;
+}
+
+.Plant__Number{
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  text-align: center;
+  color: #62bdb4;
+  padding-right: -10px;
+  width:20px;
+  font-size: 15px;
+  height: 30px;
+  padding-top: 5px;
+}
+
+.Plant__Title{
+
+  text-align:left;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-family: sans-serif;
+}
